@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- about-us start -->
+    <section class="about-us pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-120 overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="about-us__content  mb-lg-60 mb-md-50 mb-sm-40 mb-xs-30">
+                        <span class="sub-title fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img src="assets/img/team-details/badge-line-yellow.svg" class="img-fluid mr-10" alt=""> About Us</span>
+                        <h2 class="title color-secondary mb-20 mb-sm-15 mb-xs-10"> Nigeria's Premier Website, and <br>Software Design Company</h2>
+
+                        <div class="description font-la mb-50 mb-sm-40 mb-xs-30">
+                            <p>At Zero Ten Web, we are a passionate collective of technical experts dedicated to crafting exceptional digital products that seamlessly blend quality and affordability. Our mission is to transform your ideas into remarkable realities, guiding them from conception to unparalleled heights of success.</p>
+                            <br>
+                            Our commitment to excellence extends beyond mere development. We believe in fostering lasting partnerships with our clients, understanding their unique needs, and tailoring solutions that resonate with their audience. Whether it’s a sleek e-commerce platform, a cutting-edge mobile app, or a captivating website, we infuse creativity, functionality, and user-centric design into every project. At Zero Ten Web, we don’t just build websites; we create digital experiences that leave a lasting impression.
+
+
+
+                        </div>
+
+
+                        </div>
+                </div>
+
+                <div class="col-xl-6">
+                    <div class="about-us__media d-flex align-content-center justify-content-center align-items-center">
+                        <div class="media">
+                            <img src="{% static 'img/banner/banner-3.jpg' %}" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="expert-team expert-team-one text-center" style="background-image: url({% static 'img/home-2/expert-team-1.png' %})">
+                            <div class="number color-white mb-10 mb-xs-5 fw-600"><span>15</span>+</div>
+                            <h6 class="title font-la color-white">Expert Team Members</h6>
+                        </div>
+
+                        <div class="expert-team expert-team-two text-center" style="background-image: url(assets/img/home-2/expert-team-2.png)">
+                            <div class="number color-white mb-10 mb-xs-5 fw-600"><span>73</span>+</div>
+                            <h6 class="title font-la color-white">Completed Projects</h6>
+                        </div>
+
+                        <div class="expert-team expert-team-three text-center" style="background-image: url(assets/img/home-2/expert-team-3.png)">
+                            <div class="number color-white mb-10 mb-xs-5 fw-600"><span>542</span></div>
+                            <h6 class="title font-la color-white">Hours of Support</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+{% endblock content %}

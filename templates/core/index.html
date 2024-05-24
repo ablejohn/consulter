@@ -1,0 +1,743 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+    <!-- banner slider start -->
+    <section class="banner-slider__wrapper pt-0 pb-0 overflow-hidden">
+        <div class="slider-controls">
+            <div class="banner-slider-arrows d-flex flex-column"></div>
+        </div>
+
+        <div class="banner-slider overflow-hidden">
+            <div class="slider-item" style="background-image: url({% static 'img/banner/banner-1.jpg' %});">
+                <div class="number" data-animation="fadeInUp" data-delay="0.6s">03</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="banner__content text-center">
+                                <h6 class="sub-title color-white mb-15 mb-sm-15 mb-xs-10" data-animation="fadeInUp" data-delay="0.5s"><span>We Design, We Code</span> We Build</h6>
+                                <h1 class="title color-white mb-sm-30 mb-xs-20 mb-40" data-animation="fadeInUp" data-delay="1s">Best value for your money</h1>
+                                
+                                <div class="theme-btn__wrapper d-flex justify-content-center">
+                                    <a href="services.html" class="theme-btn btn-sm" data-animation="fadeInUp" data-delay="1.3s">Our Services <i class="fas fa-long-arrow-alt-right"></i></a>
+                                    <a href="contact.html" class="theme-btn btn-sm btn-white" data-animation="fadeInUp" data-delay="1.5s">Get A Quote <i class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-item" style="background-image: url({% static 'img/banner/banner-2.jpg' %});">
+                <div class="number" data-animation="fadeInUp" data-delay="0.6s">01</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="banner__content text-center">
+                                <h6 class="sub-title color-white mb-15 mb-sm-15 mb-xs-10" data-animation="fadeInUp" data-delay="0.5s"><span>For websites, Mobile Apps, </span> And More.</h6>
+                                <h1 class="title color-white mb-sm-30 mb-xs-20 mb-40" data-animation="fadeInUp" data-delay="1s">Explore Affordable &<br> High-Quality Services </h1>
+                                
+                                <div class="theme-btn__wrapper d-flex justify-content-center">
+                                    <a href="services.html" class="theme-btn btn-sm" data-animation="fadeInUp" data-delay="1.3s">Our Services <i class="fas fa-long-arrow-alt-right"></i></a>
+                                    <a href="about.html" class="theme-btn btn-sm btn-white" data-animation="fadeInUp" data-delay="1.5s">Get A Quote <i class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-item" style="background-image: url({% static 'img/banner/banner-3.jpg' %});">
+                <div class="number" data-animation="fadeInUp" data-delay="0.6s">02</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="banner__content text-center">
+                                <h6 class="sub-title color-white mb-15 mb-sm-15 mb-xs-10" data-animation="fadeInUp" data-delay="0.5s"><span>5+ Years</span> Of Building Successful Projects</h6>
+                                <h1 class="title color-white mb-sm-30 mb-xs-20 mb-40" data-animation="fadeInUp" data-delay="1s">Interactive and Well Designed Website</h1>
+                                
+                                <div class="theme-btn__wrapper d-flex justify-content-center">
+                                    <a href="services.html" class="theme-btn btn-sm" data-animation="fadeInUp" data-delay="1.3s">Our Services <i class="fas fa-long-arrow-alt-right"></i></a>
+                                    <a href="about.html" class="theme-btn btn-sm btn-white" data-animation="fadeInUp" data-delay="1.5s">Get A Quote <i class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner slider end -->
+    
+    <!-- about-us start -->
+    <section class="about-us pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-120 overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="about-us__content  mb-lg-60 mb-md-50 mb-sm-40 mb-xs-30">
+                        <span class="sub-title fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img src="assets/img/team-details/badge-line-yellow.svg" class="img-fluid mr-10" alt=""> About Us</span>
+                        <h2 class="title color-secondary mb-20 mb-sm-15 mb-xs-10"> Nigeria's Premier Website, and <br>Software Design Company</h2>
+
+                        <div class="description font-la mb-50 mb-sm-40 mb-xs-30">
+                            <p>At Zero Ten Web, we are a passionate collective of technical experts dedicated to crafting exceptional digital products that seamlessly blend quality and affordability. Our mission is to transform your ideas into remarkable realities, guiding them from conception to unparalleled heights of success.</p>
+                            
+                        </div>
+
+                                               
+                        <a href="about.html" class="theme-btn  btn-yellow-transparent fw-600">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-xl-6">
+                    <div class="about-us__media d-flex align-content-center justify-content-center align-items-center">
+                        <div class="media">
+                            <img src="assets/img/banner/banner (3).jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="expert-team expert-team-one text-center" style="background-image: url(assets/img/home-2/expert-team-1.png)">
+                            <div class="number color-white mb-10 mb-xs-5 fw-600"><span>15</span>+</div>
+                            <h6 class="title font-la color-white">Expert Team Members</h6>
+                        </div>
+
+                        <div class="expert-team expert-team-two text-center" style="background-image: url(assets/img/home-2/expert-team-2.png)">
+                            <div class="number color-white mb-10 mb-xs-5 fw-600"><span>73</span>+</div>
+                            <h6 class="title font-la color-white">Completed Projects</h6>
+                        </div>
+
+                        <div class="expert-team expert-team-three text-center" style="background-image: url(assets/img/home-2/expert-team-3.png)">
+                            <div class="number color-white mb-10 mb-xs-5 fw-600"><span>542</span></div>
+                            <h6 class="title font-la color-white">Hours of Support</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about-us end -->
+    
+    <!-- our-provide start -->
+    <section class="similar-work services-work bg-dark_white pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-135 pb-120 overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="employee-friendly__content mb-65 mb-md-50 mb-sm-40 mb-xs-30 text-center">
+                        <span class="sub-title fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img src="assets/img/team-details/badge-line-yellow.svg" class="img-fluid mr-10" alt=""> Services</span>
+                        <h2 class="title color-d_black">We Specialize In</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-minus-30">
+                <div class="col-lg-4 col-md-6">
+                    <div class="similar-work__item mb-30 d-flex justify-content-between flex-column">
+                        <div class="top d-flex align-items-center">
+                            <div class="icon color-white text-center bg-yellow">
+                                <i class="fal fa-analytics"></i>
+                            </div>
+
+                            <h5 class="title color-secondary"><a href="services.html">WEBSITE DEVELOPMENT</a></h5>
+                        </div>
+
+                        <div class="bottom">    
+                            <div class="media overflow-hidden">
+                                <img src="assets/img/services/altumcode-dMUt0X3f59Q-unsplash.jpg" class="img-fluid" alt="">
+                            </div>
+                            
+                            <div class="text pt-30 pr-30 pb-30 pl-30 pt-sm-20 pt-xs-15 pr-sm-20 pr-xs-15 pb-sm-20 pb-xs-15 pl-sm-20 pl-xs-15 font-la">
+                                <p> Our expert developers leverage cutting-edge technologies to create seamless user experiences, ensuring optimal performance, scalability, and search engine optimization (SEO). </p>
+                            </div>
+                            
+                            <a href="services.html" class="theme-btn text-center fw-600 btn-yellow">See Pricing <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="similar-work__item mb-30 d-flex justify-content-between flex-column">
+                        <div class="top d-flex align-items-center">
+                            <div class="icon color-white text-center bg-yellow">
+                                <i class="icon-planning"></i>
+                            </div>
+
+                            <h5 class="title color-secondary"><a href="services.html">WEBSITE DESIGN</a></h5>
+                        </div>
+
+                        <div class="bottom">    
+                            <div class="media overflow-hidden">
+                                <img src="assets/img/services/eftakher-alam-i1VQZsU86ok-unsplash.jpg" class="img-fluid" alt="">
+                            </div>
+                            
+                            <div class="text pt-30 pr-30 pb-30 pl-30 pt-sm-20 pt-xs-15 pr-sm-20 pr-xs-15 pb-sm-20 pb-xs-15 pl-sm-20 pl-xs-15 font-la">
+                                <p>Captivating visuals that leave a lasting impression. Our team of talented designers combines creativity and user-centric principles to craft visually stunning and intuitive website designs.</p>
+                            </div>
+                            
+                            <a href="services.html" class="theme-btn text-center fw-600 btn-yellow">See Pricing <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="similar-work__item mb-30 d-flex justify-content-between flex-column">
+                        <div class="top d-flex align-items-center">
+                            <div class="icon color-white text-center bg-yellow">
+                                <i class="icon-outline"></i>
+                            </div>
+
+                            <h5 class="title color-secondary"><a href="services.html">MOBILE DEVELOPMENT</a></h5>
+                        </div>
+
+                        <div class="bottom">    
+                            <div class="media overflow-hidden">
+                                <img src="assets/img/services/caspar-camille-rubin-89xuP-XmyrA-unsplash.jpg" class="img-fluid" alt="">
+                            </div>
+                            
+                            <div class="text pt-30 pr-30 pb-30 pl-30 pt-sm-20 pt-xs-15 pr-sm-20 pr-xs-15 pb-sm-20 pb-xs-15 pl-sm-20 pl-xs-15 font-la">
+                                <p>Elevating your business to the mobile realm. Our skilled developers specialize in creating responsive and native mobile applications that provide an exceptional user experience across various platforms, including iOS and Android.</p>
+                            </div>
+                            
+                            <a href="services.html" class="theme-btn text-center fw-600 btn-yellow">See Pricing <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="theme-btn-wrapper mt-50 mt-md-40 mt-sm-30 mt-xs-25 text-center">
+                        <a href="services.html" class="theme-btn btn-transparent fw-600"><i class="far fa-sync-alt"></i> More Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our-provide end -->
+
+    <!-- why-choose start -->
+    <section class="why-choose pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-120 overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="why-choose__media-wrapper d-flex flex-column">
+                        <div class="gallery-bar bg-yellow"></div>
+
+                        <div class="why-choose__media">
+                            <img src="{% static 'img/services/krakenimages-376KN_ISplE-unsplash.jpg' %}" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="global-country text-center bg-yellow">
+                            <div class="number mb-5 color-white"><span class="counter">26</span>+</div>
+                            <h6 class="title color-white font-la">Projects <br>Completed</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6">
+                    <div class="why-choose__content mt-lg-60 mt-md-50 mt-sm-40 mt-xs-35">
+                        <div class="why-choose__text mb-40 mb-md-35 mb-sm-30 mb-xs-30">
+                            <span class="sub-title d-block fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-md-15 mb-lg-20 mb-25"><img src="assets/img/team-details/badge-line-yellow.svg" class="img-fluid mr-10" alt=""> Why choose us</span>
+                            <h2 class="title color-pd_black">Crafting Digital Experiences for the Future</h2>
+                            
+                            <div class="description font-la mt-20 mt-sm-15 mt-xs-10">
+                                <p>At Zero Ten, we are committed to delivering cutting-edge digital solutions that propel your business into the future. Our team of experts combines technical prowess with creative vision.</p>
+                            </div>
+                        </div>
+
+                        <div class="why-choose__item-wrapper d-grid justify-content-between"> 
+                            <div class="why-choose__item">
+                                <div class="icon mb-15 mb-md-10 mb-xs-5 color-yellow">
+                                    <i class="icon-consultation"></i>
+                                </div>
+                            
+                                <h5 class="title color-secondary fw-500 mb-10">Website Design</h5>
+                                
+                                <div class="description font-la">
+                                    <p>Our website design process is a harmonious blend of aesthetics and functionality. </p>
+                                </div>
+                            </div> 
+                            
+                            <div class="why-choose__item">
+                                <div class="icon mb-15 mb-md-10 mb-xs-5 color-yellow">
+                                    <i class="icon-lawyer"></i>
+                                </div>
+                            
+                                <h5 class="title color-secondary fw-500 mb-10">Website Development</h5>
+                                
+                                <div class="description font-la">
+                                    <p>Robust, scalable, and optimized our website development services are tailored to meet your unique business needs.</p>
+                                </div>
+                            </div> 
+
+                            <div class="why-choose__item">
+                                <div class="icon mb-15 mb-md-10 mb-xs-5 color-yellow">
+                                    <i class="icon-financial"></i>
+                                </div>
+                            
+                                <h5 class="title color-secondary fw-500 mb-10">Mobile Development</h5>
+                                
+                                <div class="description font-la">
+                                    <p>Embrace the power of mobile with our innovative app development solutions.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="why-choose__item">
+                                <div class="icon mb-15 mb-md-10 mb-xs-5 color-yellow">
+                                    <i class="icon-management"></i>
+                                </div>
+                            
+                                <h5 class="title color-d_black secondary-500 mb-10">Continuous Innovation
+                                </h5>
+                                
+                                <div class="description font-la">
+                                    <p>At the core of our services lies a commitment to continuous innovation.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- why-choose end -->
+
+    <!-- counter-area start -->
+    <div class="counter-area pb-xs-80 pb-sm-100 pb-md-100 pb-120 overflow-hidden">
+        <div class="container">
+            <div class="row mb-minus-30">
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="counter-area__item counter-area__item-two d-flex align-items-center">
+                        <div class="icon color-yellow">
+                            <i class="icon-process-1"></i>
+                        </div>
+
+                        <div class="text text-center">
+                            <div class="number fw-600 color-yellow"><span class="counter">73</span>+</div>
+                            <div class="description font-la">Successful Project</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="counter-area__item counter-area__item-two d-flex align-items-center">
+                        <div class="icon color-yellow">
+                            <i class="icon-support-2"></i>
+                        </div>
+
+                        <div class="text text-center">
+                            <div class="number fw-600 color-yellow"><span class="counter">542</span>+</div>
+                            <div class="description font-la">Hours of Support</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="counter-area__item counter-area__item-two d-flex align-items-center">
+                        <div class="icon color-yellow">
+                            <i class="icon-consultation"></i>
+                        </div>
+
+                        <div class="text text-center">
+                            <div class="number fw-600 color-yellow"><span class="counter">26</span>+</div>
+                            <div class="description font-la">Custormers</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="counter-area__item counter-area__item-two d-flex align-items-center">
+                        <div class="icon color-yellow">
+                            <i class="icon-teamwork-1"></i>
+                        </div>
+
+                        <div class="text text-center">
+                            <div class="number fw-600 color-yellow"><span class="counter">73</span>+</div>
+                            <div class="description font-la">Customer Satisfaction</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- counter-area end -->
+
+     <!-- our-porfolio start -->
+     <section class="our-team our-porfolio pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-135 pb-120 overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="our-team__content mb-65 mb-md-50 mb-sm-40 mb-xs-30 text-center mx-auto">
+                        <span class="sub-title fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img src="assets/img/team-details/badge-line-yellow.svg" class="img-fluid mr-10" alt=""> Portfolio</span>
+                        <h2 class="title color-d_black">We've Done Lot’s Of Awesome Projects</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="our-porfolio__slider">
+            <div class="slider-item">
+                <div class="our-project__item overflow-hidden">
+                    <img src="{% static 'img/portfolio/Game.jpg' %}" alt="">
+
+                    <div class="content d-flex align-items-center justify-content-between">
+                        <div class="text">
+                            <span class="fw-500 color-yellow d-block mb-10 text-uppercase">Gaming</span>
+                            <h5 class="title color-secondary">Game Design</h5>
+                        </div>
+
+                        <a href="our-project.html" class="theme-btn"><i class="icon-arrow-right-2"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-item">
+                <div class="our-project__item overflow-hidden">
+                    <img src="assets/img/portfolio/Website Dev.jpg" alt="">
+
+                    <div class="content d-flex align-items-center justify-content-between">
+                        <div class="text">
+                            <span class="fw-500 color-yellow d-block mb-10 text-uppercase">Website</span>
+                            <h5 class="title color-secondary">Website Development</h5>
+                        </div>
+
+                        <a href="our-project.html" class="theme-btn"><i class="icon-arrow-right-2"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-item">
+                <div class="our-project__item overflow-hidden">
+                    <img src="assets/img/portfolio/Website des.jpg" alt="">
+
+                    <div class="content d-flex align-items-center justify-content-between">
+                        <div class="text">
+                            <span class="fw-500 color-yellow d-block mb-10 text-uppercase">Website</span>
+                            <h5 class="title color-secondary">Website Design</h5>
+                        </div>
+
+                        <a href="our-project.html" class="theme-btn"><i class="icon-arrow-right-2"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-item">
+                <div class="our-project__item overflow-hidden">
+                    <img src="assets/img/portfolio/Software Dev.jpg" alt="">
+
+                    <div class="content d-flex align-items-center justify-content-between">
+                        <div class="text">
+                            <span class="fw-500 color-yellow d-block mb-10 text-uppercase">Software</span>
+                            <h5 class="title color-secondary">Software Design</h5>
+                        </div>
+
+                        <a href="our-project.html" class="theme-btn"><i class="icon-arrow-right-2"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-item">
+                <div class="our-project__item overflow-hidden">
+                    <img src="assets/img/portfolio/Animation.jpg" alt="">
+
+                    <div class="content d-flex align-items-center justify-content-between">
+                        <div class="text">
+                            <span class="fw-500 color-yellow d-block mb-10 text-uppercase">Animation</span>
+                            <h5 class="title color-secondary">2D's and 3D's Animation</h5>
+                        </div>
+
+                        <a href="our-project.html" class="theme-btn"><i class="icon-arrow-right-2"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-item">
+                <div class="our-project__item overflow-hidden">
+                    <img src="assets/img/portfolio/Augmented Rea.jpg" alt="">
+
+                    <div class="content d-flex align-items-center justify-content-between">
+                        <div class="text">
+                            <span class="fw-500 color-yellow d-block mb-10 text-uppercase">Augmented Reality</span>
+                            <h5 class="title color-secondary">Reality and Virtual Reality Products</h5>
+                        </div>
+
+                        <a href="our-project.html" class="theme-btn"><i class="icon-arrow-right-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our-porfolio end -->
+
+    <!-- our-team-home-2 start -->
+    <section class="our-team our-team-home-2 bg-dark_yellow pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-135 pb-120 overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="our-team__content mb-65 mb-md-50 mb-sm-40 mb-xs-30 text-center">
+                        <span class="sub-title fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img src="assets/img/team-details/badge-line-yellow.svg" class="img-fluid mr-10" alt=""> Our Member</span>
+                        <h2 class="title color-d_black">Professional Team</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-minus-30">
+                <div class="col-xxl-3 col-lg-4 col-md-6">
+                    <div class="team-item team-item-two text-center mb-30 d-block overflow-hidden">
+                        <div class="media">
+                            <img src="assets/img/team/team-item-1.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="text d-flex align-items-center justify-content-center">
+                            <div class="left">
+                                <h5 class="title color-white">Stephen Larry</h5>
+                                <span class="position color-white font-la fw-500">Product Manager</span>
+                            </div>
+                        </div>
+
+                        <a href="team-details.html" class="theme-btn">View Details <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div><!-- team-item -->
+
+                <div class="col-xxl-3 col-lg-4 col-md-6">
+                    <div class="team-item team-item-two text-center mb-30 d-block overflow-hidden">
+                        <div class="media">
+                            <img src="{% static 'img/team/team-item-2.jpg' %}" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="text d-flex align-items-center justify-content-center">
+                            <div class="left">
+                                <h5 class="title color-white">Nusrat Jahan</h5>
+                                <span class="position color-white font-la fw-500">Assistant Manager, Finance</span>
+                            </div>
+                        </div>
+
+                        <a href="team-details.html" class="theme-btn">View Details <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div><!-- team-item -->
+
+                <div class="col-xxl-3 col-lg-4 col-md-6">
+                    <div class="team-item team-item-two text-center mb-30 d-block overflow-hidden">
+                        <div class="media">
+                            <img src="{% static 'img/team/team-item-3.jpg' %}" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="text d-flex align-items-center justify-content-center">
+                            <div class="left">
+                                <h5 class="title color-white">Richard Paul</h5>
+                                <span class="position color-white font-la fw-500">Business Consulting</span>
+                            </div>
+                        </div>
+
+                        <a href="team-details.html" class="theme-btn">View Details <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div><!-- team-item -->
+
+                <div class="col-xxl-3 col-lg-4 col-md-6">
+                    <div class="team-item team-item-two text-center mb-30 d-block overflow-hidden">
+                        <div class="media">
+                            <img src="{% static 'img/team/team-item-9.jpg' %}" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="text d-flex align-items-center justify-content-center">
+                            <div class="left">
+                                <h5 class="title color-white">Elizabeth Linda</h5>
+                                <span class="position color-white font-la fw-500">Consulter Agency</span>
+                            </div>
+                        </div>
+
+                        <a href="team-details.html" class="theme-btn">View Details <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div><!-- team-item -->
+            </div>
+        </div>
+    </section>
+    <!-- our-team-home-2 end -->
+
+    
+    <!-- pricing start -->
+    <section class="pricing pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-120 overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="pricing__content mb-40 mb-xs-30 text-center">
+                        <span class="sub-title d-block fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-md-15 mb-lg-20 mb-25"><img src="assets/img/team-details/badge-line-yellow.svg" class="img-fluid mr-10" alt=""> Pricing Table</span>
+                        <h2 class="title color-d_black">Budget Overview</h2>
+                                                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-item-wraper">
+                <div class="row mb-minus-30" id="monthly">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="pricing__card pricing__card-yellow d-flex flex-column justify-content-between mb-30 overflow-hidden">
+                            <div class="pricing__card-header">
+                                <h3 class="title color-d_black">Starter Plan</h3>
+                                <h6 class="sub-title font-la fw-600 text-uppercase mb-30 mb-sm-25 mb-xs-15">Start package <img src="assets/img/icon/hand-4.svg" class="img-fluid" alt=""></h6>
+                                <div class="price color-white mb-30 mb-sm-25 mb-xs-15 overflow-hidden">N350,000 </div>
+                            </div>
+                            <div class="pricing__card-body">
+                                <ul> 
+                                    <li><i class="fal fa-check-square"></i> Website or Mobile App</li>
+                                    <li><i class="fal fa-check-square"></i> Shared Hosting</li>
+                                    <li><i class="icon-close-3"></i> Pre registered Users/li>
+                                    <li><i class="icon-close-3"></i> Multiple Dashboard</li>
+                                    <li><i class="icon-close-3"></i> API Design</li>
+                                    <li><i class="icon-close-3"></i> Cloud Hosting</li>
+                                </ul>
+                                <a href="contact.html" class="theme-btn mt-40 mt-md-35">Get Started <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- /pricing__card -->
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="pricing__card pricing__card-yellow d-flex flex-column justify-content-between mb-30 overflow-hidden standard-plan">
+                            <div class="pricing__card-header">
+                                <h3 class="title color-d_black">Business Plan</h3>
+                                <h6 class="sub-title font-la fw-600 text-uppercase mb-30 mb-sm-25 mb-xs-15">Start package <img src="assets/img/icon/hand-4.svg" class="img-fluid" alt=""></h6>
+                                <div class="price color-white mb-30 mb-sm-25 mb-xs-15 overflow-hidden">N850,000</div>
+                               
+                            </div>
+                            <div class="pricing__card-body">
+                                <ul> 
+                                    <li><i class="fal fa-check-square"></i> Website and Mobile App</li>
+                                    <li><i class="fal fa-check-square"></i> Pre Registered Users</li>
+                                    <li><i class="fal fa-check-square"></i> Maximum of Three Dashboard</li>
+                                    <li><i class="fal fa-check-square"></i> API Design</li>
+                                    <li><i class="icon-close-3"></i> Shared Hosting</li>
+                                    <li><i class="icon-close-3"></i> Cloud Hosting</li>
+                                </ul>
+                                <a href="contact.html" class="theme-btn mt-40 mt-md-35">Get Started <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- /pricing__card -->
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="pricing__card pricing__card-yellow d-flex flex-column justify-content-between mb-30 overflow-hidden professional">
+                            <div class="pricing__card-header">
+                                <h3 class="title color-d_black">Enterprise Plan</h3>
+                                <h6 class="sub-title font-la fw-600 text-uppercase mb-30 mb-sm-25 mb-xs-15">Start package <img src="assets/img/icon/hand-4.svg" class="img-fluid" alt=""></h6>
+                                <div class="price color-white mb-30 mb-sm-25 mb-xs-15 overflow-hidden">N2,450,0000 </div>
+                                
+                            </div>
+                            <div class="pricing__card-body">
+                                <ul> 
+                                    <li><i class="fal fa-check-square"></i> Website and Mobile App and Software</li>
+                                    <li><i class="fal fa-check-square"></i> Pre Registered Users</li>
+                                    <li><i class="fal fa-check-square"></i> Multiple Dashboards</li>
+                                    <li><i class="fal fa-check-square"></i> API Design</li>
+                                    <li><i class="fal fa-check-square"></i> Cloud Hosting on Zero Ten Cloud</li>
+                                </ul>
+                                <a href="contact.html" class="theme-btn mt-40 mt-md-35">Get Started <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- /pricing__card -->
+                </div>
+ 
+                
+        </div>
+    </section>
+    <!-- pricing end -->
+
+    <!-- blog-news start -->
+    <section class="blog-news pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-120 overflow-hidden" style="background-image: url(assets/img/home-3/blog-new-bg.png);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="blog-news__content text-center">
+                        <span class="sub-title fw-500  text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block color-yellow"><img src="assets/img/team-details/badge-line-yellow.svg" class="img-fluid mr-10" alt=""> Blog & News</span>
+                        <h2 class="title color-d_black">ZERO 10 WEB Latest Blog & News</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-news__bottom mt-60 mt-sm-50 mt-xs-40">
+                <div class="row mb-minus-30">
+                    <div class="col-xl-4 col-md-6 col-12">
+                        <div class="blog-item blog-item-two mb-30">
+                            <div class="blog-featured-thumb mb-xs-30 mb-sm-30 mb-md-35 mb-lg-40 mb-50">
+                                <div class="media overflow-hidden">
+                                    <img src="assets/img/blog/blog-12.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="date">
+                                    <span>21</span>
+                                    <span>April</span>
+                                    <span>2024</span>
+                                </div>
+                            </div>
+
+                            <div class="content pr-sm-25 pr-xs-15 pl-xs-15 pl-sm-25 pr-xs-15 pr-30 pb-30 pl-30">
+                                <div class="post-author mb-5">
+                                    <a href="blog-standard.html">Business, Technology</a>
+                                </div>
+
+                                <h5><a href="blog-standard.html">Embracing Digital Transformation: Strategies for Business Growth</a></h5>
+
+                                <div class="btn-link-share mt-xs-10 mt-sm-10 mt-15">
+                                    <a href="blog-standard.html" class="theme-btn btn-border">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6 col-12">
+                        <div class="blog-item blog-item-two mb-30">
+                            <div class="blog-featured-thumb mb-xs-30 mb-sm-30 mb-md-35 mb-lg-40 mb-50">
+                                <div class="media overflow-hidden">
+                                    <img src="assets/img/blog/blog-13.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="date">
+                                    <span>15</span>
+                                    <span>March</span>
+                                    <span>2024</span>
+                                </div>
+                            </div>
+
+                            <div class="content pr-sm-25 pr-xs-15 pl-xs-15 pl-sm-25 pr-xs-15 pr-30 pb-30 pl-30">
+                                <div class="post-author mb-5">
+                                    <a href="blog-standard.html">Technology, Innovation</a>
+                                </div>
+
+                                <h5><a href="blog-standard.html">The Rise of Artificial Intelligence: Opportunities and Challenges</a></h5>
+
+                                <div class="btn-link-share mt-xs-10 mt-sm-10 mt-15">
+                                    <a href="blog-standard.html" class="theme-btn btn-border">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-md-6 col-12">
+                        <div class="blog-item blog-item-two mb-30">
+                            <div class="blog-featured-thumb mb-xs-30 mb-sm-30 mb-md-35 mb-lg-40 mb-50">
+                                <div class="media overflow-hidden">
+                                    <img src="assets/img/blog/blog-14.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="date">
+                                    <span>24</span>
+                                    <span>May</span>
+                                    <span>2024</span>                               
+                                </div>
+                            </div>
+
+                            <div class="content pr-sm-25 pr-xs-15 pl-xs-15 pl-sm-25 pr-xs-15 pr-30 pb-30 pl-30">
+                                <div class="post-author mb-5">
+                                    <a href="blog-standard.html">Business, Consulting</a>
+                                </div>
+
+                                <h5><a href="blog-standard.html">Unlocking Organizational Efficiency: The Power of Process Automation</a></h5>
+
+                                <div class="btn-link-share mt-xs-10 mt-sm-10 mt-15">
+                                    <a href="blog-standard.html" class="theme-btn btn-border">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog-news end -->
+
+{% endblock content %}
+

@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<section class="similar-work services-work bg-dark_white pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-135 pb-120 overflow-hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="employee-friendly__content mb-65 mb-md-50 mb-sm-40 mb-xs-30 text-center">
+                    <span class="sub-title fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img src="assets/img/team-details/badge-line-yellow.svg" class="img-fluid mr-10" alt=""> Services</span>
+                    <h2 class="title color-d_black">We Specialize In</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-minus-30">
+            {% for service in all_services %}
+            <div class="col-lg-4 col-md-6">
+                <div class="similar-work__item mb-30 d-flex justify-content-between flex-column">
+                    <div class="top d-flex align-items-center">
+                        <div class="icon color-white text-center bg-yellow">
+                            <i class="{{service.icon}}"></i>
+                        </div>
+
+                        <h5 class="title color-secondary"><a href="services.html">{{service.title}}</a></h5>
+                    </div>
+
+                    <div class="bottom">
+                        <div class="media overflow-hidden">
+                            <img src="{{service.image.url}}" class="img-fluid" alt="{{service.title}}">
+                        </div>
+
+                        <div class="text pt-30 pr-30 pb-30 pl-30 pt-sm-20 pt-xs-15 pr-sm-20 pr-xs-15 pb-sm-20 pb-xs-15 pl-sm-20 pl-xs-15 font-la">
+                            <p>{{service.description}}</p>
+                        </div>
+
+                        <a href="services.html" class="theme-btn text-center fw-600 btn-yellow">See Pricing <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+            </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- our-provide end -->
+{% endblock content %}
